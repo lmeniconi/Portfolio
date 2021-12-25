@@ -15,7 +15,13 @@
 
       <div id="tech" class="w-full flex justify-center">
         <div
-          class="w-5/12 text-center bg-neutral-100 bg-opacity-20 rounded-3xl p-4"
+          class="
+            w-5/12
+            text-center
+            bg-neutral-100 bg-opacity-20
+            rounded-3xl
+            p-4
+          "
         >
           <div class="flex justify-around">
             <a href="https://www.python.org/">

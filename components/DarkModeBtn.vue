@@ -39,8 +39,10 @@ export default Vue.extend({
         const docClassList = document.documentElement.classList
         if (docClassList.contains('dark')) {
           docClassList.remove('dark')
+          localStorage.theme = 'light'
         } else {
           docClassList.add('dark')
+          localStorage.theme = 'dark'
         }
 
         this.show = true
