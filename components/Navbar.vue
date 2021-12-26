@@ -1,6 +1,18 @@
 <template>
   <div
-    class="fixed top-0 left-0 w-full flex justify-between px-64 pt-10 pb-6 z-10"
+    class="
+      fixed
+      top-0
+      left-0
+      w-full
+      flex
+      justify-between
+      backdrop-blur-sm
+      px-64
+      pt-10
+      pb-2
+      z-10
+    "
   >
     <nav class="flex items-center space-x-10 text-xl dark:invert">
       <NuxtLink
