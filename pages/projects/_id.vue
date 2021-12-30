@@ -59,7 +59,7 @@
               >{{ project.website }}
             </a>
           </li>
-          <li v-if="project.demo">
+          <li v-else-if="project.demo">
             <span class="bg-gradient text-gradient font-medium pr-2">Demo</span>
             <a
               class="text-neutral-800 hover:underline"
