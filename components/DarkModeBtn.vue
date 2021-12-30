@@ -51,3 +51,9 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style lang="postcss" scoped>
+button img {
+  @apply max-h-6 md:max-h-8 xl:max-h-max;
+}
+</style>

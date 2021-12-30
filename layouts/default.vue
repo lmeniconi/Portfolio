@@ -12,7 +12,20 @@
     "
   >
     <Navbar />
-    <Nuxt />
+    <div
+      class="
+        container
+        mx-auto
+        px-5
+        md:px-0
+        lg:px-20
+        xl:px-0
+        2xl:px-24
+        dark:invert
+      "
+    >
+      <Nuxt />
+    </div>
     <Footer />
   </div>
 </template>
@@ -24,16 +37,7 @@ export default Vue.extend({
   data() {
     return {
       mount: false,
-      sections: null
     }
-  },
-  watch: {
-    $route() {
-      this.$store.commit('setActiveSection', 1)
-      setTimeout(() => {
-        this.sections = document.querySelectorAll('section')
-      }, 100)
-    },
   },
   methods: {
     checkDarkMode() {
@@ -51,22 +55,6 @@ export default Vue.extend({
   beforeMount() {
     this.checkDarkMode()
     this.mount = true
-  },
-  mounted() {
-    this.sections = document.querySelectorAll('section')
-
-    window.addEventListener('scroll', () => {
-      var current;
-      
-      this.sections.forEach((section, index) => {
-        const sectionTop = section.offsetTop
-        if (pageYOffset >= sectionTop - 500) {
-          current = index + 1
-        }
-      })
-
-      this.$store.commit('setActiveSection', current)
-    })
   },
 })
 </script>

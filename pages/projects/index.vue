@@ -1,19 +1,16 @@
 <template>
-  <div>
-    <IndexHero />
-    <IndexProjects />
-    <IndexAbout />
-    <IndexTechs />
+  <div class="container-2 mx-auto text-center lg:text-left">
+    <ProjectsRecents />
+    <ProjectsExperimental />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
 export default Vue.extend({
   head() {
-    const title = 'Luciano Meniconi - Portafolio'
-    const description = 'Portafolio de Luciano Meniconi - Full Stack Developer'
+    const title = 'Proyectos - Luciano Meniconi'
+    const description = 'Proyectos de Luciano Meniconi'
 
     return {
       title,
@@ -34,7 +31,7 @@ export default Vue.extend({
         },
         {
           property: 'og:url',
-          content: 'https://lucianomeniconi.com/',
+          content: 'https://lucianomeniconi.com/projects',
         },
         {
           property: 'og:title',

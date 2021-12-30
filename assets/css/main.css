@@ -4,6 +4,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.container-2 {
+  @apply w-11/12 lg:w-full xl:w-10/12 text-center lg:text-left;
+}
+
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-amber-800 to-rose-500;
+}
+
+#tech a {
+  @apply transition duration-500 transform;
+}
+
+#tech a:hover {
+  @apply scale-110;
+}
+
+#tech img {
+  @apply max-h-10 md:max-h-max;
+}
+
 /* Animations Delays */
 .animate-default {
   animation-delay: 0s;

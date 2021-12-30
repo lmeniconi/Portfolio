@@ -10,7 +10,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Portfolio',
+    title: 'Luciano Meniconi - Portafolio',
     htmlAttrs: {
       lang: 'es',
     },
@@ -20,7 +20,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Portafolio de Luciano Meniconi. Proyectos y Labs',
+        content: 'Portafolio de Luciano Meniconi - Full Stack Developer',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -31,7 +31,7 @@ export default {
   css: ['@/assets/css/main.css', 'animate.css/animate.min.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/click-outside.client.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
