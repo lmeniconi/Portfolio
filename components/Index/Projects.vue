@@ -49,10 +49,13 @@ export default Vue.extend({
   props: {
     show: Boolean,
   },
-  data() {
-    return {
-      projects,
-    }
+  computed: {
+    projects: function () {
+      const filtered = projects
+        .filter((project) => project.labs === false)
+        .reverse()
+      return filtered.length >= 2 ? filtered.splice(0, 2) : filtered
+    },
   },
 })
 </script>
