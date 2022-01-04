@@ -1,17 +1,17 @@
 const github = 'https://github.com/lmeniconi/'
 
 export default [
-  {
-    id: 'brikku',
-    name: 'Brikku',
-    description: 'Plataforma de búsqueda de proveedores latinoamericanos',
-    techs: ['Vue', 'Nuxt', 'Firebase', 'Tailwindcss'],
-    source: `${github}Brikku-Front`,
-    website: 'https://brikku.com/',
-    demo: '',
-    img: 'brikku.png',
-    labs: false,
-  },
+  // {
+  //   id: 'brikku',
+  //   name: 'Brikku',
+  //   description: 'Plataforma de búsqueda de proveedores latinoamericanos',
+  //   techs: ['Vue', 'Nuxt', 'Firebase', 'Tailwindcss'],
+  //   source: `${github}Brikku-Front`,
+  //   website: 'https://brikku.com/',
+  //   demo: '',
+  //   img: 'brikku.png',
+  //   labs: false,
+  // },
   {
     id: 'landsig',
     name: 'Landsig',
@@ -33,5 +33,17 @@ export default [
     website: '',
     demo: '',
     labs: false,
+  },
+  {
+    id: 'fastapi',
+    name: 'API REST Demo',
+    description:
+      'Demo de API REST - OAUTH2 Password Bearer, hecha con el framework FastAPI',
+    techs: ['FastAPI', 'OAUTH2', 'SQLAlchemy Core'],
+    img: 'fastapi-demo.png',
+    source: `${github}fastapi-restapi`,
+    website: '',
+    demo: '',
+    labs: true,
   },
 ]

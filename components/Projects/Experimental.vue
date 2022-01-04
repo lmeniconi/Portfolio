@@ -16,7 +16,10 @@
       Proyectos Experimentales
     </h1>
 
-    <Projects :projects="projects" />
+    <Projects
+      :projects="projects"
+      class="animate__animated animate__fadeInUp animate-100"
+    />
   </section>
 </template>
 
