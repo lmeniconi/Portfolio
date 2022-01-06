@@ -12,6 +12,8 @@
     "lintfix": "prettier --write --list-different ."
   },
   "dependencies": {
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "animate.css": "^4.1.1",
     "core-js": "^3.19.3",

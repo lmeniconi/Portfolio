@@ -1,3 +1,9 @@
+const isDev = process.env.NODE_ENV ? 'development' : 'production'
+const url = isDev ? 'http://localhost:3000' : 'https://lucianomeniconi.com'
+
+// Projects
+import projects from './data/projects'
+
 export default {
   server: {
     host: '0.0.0.0',
@@ -42,7 +48,31 @@ export default {
     '@nuxt/typescript-build',
 
     '@nuxt/postcss8',
+
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
+
+  robots: {
+    UserAgent: '*',
+    Disallow: '/admin',
+    Sitemap: `${url}/sitemap.xml`,
+  },
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: url,
+    gzip: true,
+    routes: () => {
+      let routes = []
+
+      projects.forEach((project) => {
+        routes.push(`projects/${project.id}`)
+      })
+
+      return routes
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

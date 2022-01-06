@@ -10,6 +10,7 @@
         bg-gradient
         text-gradient
         font-semibold
+        animate__animated animate__fadeInUp
         py-2
       "
     >
