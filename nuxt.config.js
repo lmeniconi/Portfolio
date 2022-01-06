@@ -1,4 +1,4 @@
-const isDev = process.env.NODE_ENV ? 'development' : 'production'
+const isDev = process.env.NODE_ENV === 'development'
 const url = isDev ? 'http://localhost:3000' : 'https://lucianomeniconi.com'
 
 // Projects
