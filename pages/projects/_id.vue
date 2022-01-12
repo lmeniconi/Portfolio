@@ -72,7 +72,7 @@
             <span class="bg-gradient text-gradient font-medium pr-2">Demo</span>
             <span class="text-neutral-800">No disponible</span>
           </li>
-          <li>
+          <li v-if="project.source">
             <span class="bg-gradient text-gradient font-medium pr-2"
               >Source</span
             >
