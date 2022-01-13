@@ -20,7 +20,7 @@ export default [
     img: 'landsig.png',
     source: '',
     website: '',
-    demo: 'https://61c8fcd3a94c4b0009d12d18--zen-pare-ed06e7.netlify.app',
+    demo: 'https://landsigdemo.netlify.app/',
     labs: false,
   },
   {
