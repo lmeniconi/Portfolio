@@ -115,8 +115,9 @@ export default Vue.extend({
     }
   },
   created() {
+    console.log('route:', this.$route)
     const project = projects.find(
-      (project) => project.id === this.$route.params.id
+      (project) => project.id === this.$route.params.slug
     )
 
     if (!project) {
