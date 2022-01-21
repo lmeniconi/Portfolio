@@ -3,6 +3,11 @@ const url = isDev ? 'http://localhost:3000' : 'https://lucianomeniconi.com'
 
 // Projects
 import projects from './data/projects'
+let routes = []
+// Projects
+projects.forEach((project) => {
+  routes.push(`projects/${project.id}`)
+})
 
 export default {
   server: {
@@ -63,15 +68,11 @@ export default {
     path: '/sitemap.xml',
     hostname: url,
     gzip: true,
-    routes: () => {
-      let routes = []
+    routes,
+  },
 
-      projects.forEach((project) => {
-        routes.push(`projects/${project.id}`)
-      })
-
-      return routes
-    },
+  generate: {
+    routes,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
