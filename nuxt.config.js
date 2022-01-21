@@ -73,6 +73,7 @@ export default {
 
   generate: {
     routes,
+    fallback: false,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
