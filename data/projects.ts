@@ -30,7 +30,7 @@ export default [
     techs: ['Vue', 'Laravel', 'InertiaJS', 'Tailwindcss'],
     img: 'pharma93.png',
     source: '',
-    website: '',
+    website: 'https://www.pharma93.cl/',
     demo: '',
     labs: false,
   },

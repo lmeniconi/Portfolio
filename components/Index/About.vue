@@ -25,6 +25,16 @@
       <div class="w-full md:w-10/12 mx-auto space-y-4">
         <p>
           <span class="bg-gradient text-gradient font-medium">Actualidad</span>
+          > Estoy trabajando como Full-Stack Developer en
+          <a
+            class="text-red-500 font-medium hover:underline"
+            href="https://asimov.cl/"
+            target="_blank"
+            >Asimov</a
+          >
+        </p>
+        <p>
+          <span class="bg-gradient text-gradient font-medium">Actualidad</span>
           > Estoy finalizando la carrera de Ingeniería en computación e
           informática en la Universidad Andrés Bello.
         </p>
