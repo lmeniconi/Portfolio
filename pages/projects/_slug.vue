@@ -5,14 +5,7 @@
         class="flex items-center space-x-2 animate__animated animate__fadeInUp"
       >
         <NuxtLink
-          class="
-            text-lg
-            md:text-xl
-            xl:text-2xl
-            bg-gradient
-            text-gradient
-            font-semibold
-          "
+          class="text-lg md:text-xl xl:text-2xl bg-gradient text-gradient font-semibold"
           to="/projects"
           >Proyectos</NuxtLink
         >
@@ -24,23 +17,12 @@
 
       <article class="w-full md:w-10/12 lg:w-9/12 mx-auto space-y-8">
         <h2
-          class="
-            text-xl
-            md:text-2xl
-            animate__animated animate__fadeInUp animate-400
-          "
+          class="text-xl md:text-2xl animate__animated animate__fadeInUp animate-400"
         >
           {{ project.description }}
         </h2>
         <ul
-          class="
-            text-lg
-            md:text-xl
-            space-y-3
-            lg:px-10
-            break-words
-            animate__animated animate__fadeInUp animate-400
-          "
+          class="text-lg md:text-xl space-y-3 lg:px-10 break-words animate__animated animate__fadeInUp animate-400"
         >
           <li>
             <span class="bg-gradient text-gradient font-medium pr-2"
@@ -86,11 +68,7 @@
         </ul>
 
         <div
-          class="
-            space-y-8
-            dark:invert
-            animate__animated animate__fadeInUp animate-600
-          "
+          class="space-y-8 dark:invert animate__animated animate__fadeInUp animate-600"
         >
           <img
             class="max-h-80 rounded-xl mx-auto"
@@ -115,7 +93,6 @@ export default Vue.extend({
     }
   },
   created() {
-    console.log('route:', this.$route)
     const project = projects.find(
       (project) => project.id === this.$route.params.slug
     )
