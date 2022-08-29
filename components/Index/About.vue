@@ -23,7 +23,7 @@
         de la vida real a través del código.
       </p>
       <div class="w-full md:w-10/12 mx-auto space-y-4">
-        <p>
+        <!-- <p>
           <span class="bg-gradient text-gradient font-medium">Actualidad</span>
           > Estoy trabajando como Full-Stack Developer en
           <a
@@ -32,7 +32,7 @@
             target="_blank"
             >Asimov</a
           >
-        </p>
+        </p> -->
         <p>
           <span class="bg-gradient text-gradient font-medium">Actualidad</span>
           > Estoy finalizando la carrera de Ingeniería en computación e
@@ -79,8 +79,3 @@
     </div>
   </section>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({})
-</script>
