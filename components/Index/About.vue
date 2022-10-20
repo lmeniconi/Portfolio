@@ -1,17 +1,7 @@
 <template>
   <section class="container-2 mx-auto space-y-8 py-20">
     <h2
-      class="
-        w-fit
-        mx-auto
-        lg:mx-0
-        text-4xl
-        xl:text-5xl
-        bg-gradient
-        text-gradient
-        font-semibold
-        py-2
-      "
+      class="w-fit mx-auto lg:mx-0 text-4xl xl:text-5xl bg-gradient text-gradient font-semibold py-2"
     >
       Acerca de mí
     </h2>
@@ -23,7 +13,7 @@
         de la vida real a través del código.
       </p>
       <div class="w-full md:w-10/12 mx-auto space-y-4">
-        <!-- <p>
+        <p>
           <span class="bg-gradient text-gradient font-medium">Actualidad</span>
           > Estoy trabajando como Full-Stack Developer en
           <a
@@ -32,7 +22,7 @@
             target="_blank"
             >Asimov</a
           >
-        </p> -->
+        </p>
         <p>
           <span class="bg-gradient text-gradient font-medium">Actualidad</span>
           > Estoy finalizando la carrera de Ingeniería en computación e
@@ -46,13 +36,7 @@
           </p>
           <div class="w-full lg:w-11/12 mx-auto space-y-1">
             <div
-              class="
-                flex
-                justify-center
-                lg:justify-start
-                space-x-2
-                hover:underline
-              "
+              class="flex justify-center lg:justify-start space-x-2 hover:underline"
             >
               <img src="@/assets/icons/github.svg" alt="" />
               <a target="_blank" href="https://github.com/lmeniconi/"
@@ -60,13 +44,7 @@
               >
             </div>
             <div
-              class="
-                flex
-                justify-center
-                lg:justify-start
-                space-x-2
-                hover:underline
-              "
+              class="flex justify-center lg:justify-start space-x-2 hover:underline"
             >
               <img src="@/assets/icons/instagram.svg" alt="" />
               <a target="_blank" href="https://www.instagram.com/aattano/"
