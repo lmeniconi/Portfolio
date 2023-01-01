@@ -1,17 +1,6 @@
 const github = 'https://github.com/lmeniconi/'
 
 export default [
-  // {
-  //   id: 'brikku',
-  //   name: 'Brikku',
-  //   description: 'Plataforma de búsqueda de proveedores latinoamericanos',
-  //   techs: ['Vue', 'Nuxt', 'Firebase', 'Tailwindcss'],
-  //   source: `${github}Brikku-Front`,
-  //   website: 'https://brikku.com/',
-  //   demo: '',
-  //   img: 'brikku.png',
-  //   labs: false,
-  // },
   {
     id: 'landsig',
     name: 'Landsig',
@@ -19,8 +8,8 @@ export default [
     techs: ['Nuxt', 'Tailwindcss'],
     img: 'landsig.png',
     source: '',
-    website: '',
-    demo: 'https://landsigdemo.netlify.app/',
+    website: 'https://landsig.cl/',
+    demo: '',
     labs: false,
   },
   {
