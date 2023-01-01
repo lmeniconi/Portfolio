@@ -1,18 +1,7 @@
 <template>
   <section class="min-h-screen pt-32 md:pt-56 pb-20">
     <h1
-      class="
-        w-fit
-        mx-auto
-        lg:mx-0
-        text-4xl
-        xl:text-5xl
-        bg-gradient
-        text-gradient
-        font-semibold
-        animate__animated animate__fadeInUp
-        py-2
-      "
+      class="w-fit mx-auto lg:mx-0 text-4xl xl:text-5xl bg-gradient text-gradient font-semibold animate__animated animate__fadeInUp py-2"
     >
       Mis Proyectos
     </h1>
@@ -32,7 +21,7 @@ import projects from '@/data/projects'
 export default Vue.extend({
   computed: {
     projects: function () {
-      return projects.filter((project) => project.labs === false).reverse()
+      return projects.filter((project) => project.labs === false)
     },
   },
 })

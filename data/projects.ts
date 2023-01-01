@@ -2,6 +2,17 @@ const github = 'https://github.com/lmeniconi/'
 
 export default [
   {
+    id: 'juan-agustin',
+    name: 'Juan Agustín',
+    description: 'Landing page de edificio Juan Agustín para inmobiliaria IRC',
+    techs: ['Nuxt', 'Tailwindcss'],
+    img: 'irc.png',
+    source: '',
+    website: 'https://juanagustin.cl',
+    demo: '',
+    labs: false,
+  },
+  {
     id: 'landsig',
     name: 'Landsig',
     description: 'Landing page para software de soluciones geoinformáticas',

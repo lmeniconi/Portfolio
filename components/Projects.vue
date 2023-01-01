@@ -4,32 +4,13 @@
       v-for="project in projects"
       :key="project.name"
       :to="`/projects/${project.id}`"
-      class="
-        w-full
-        md:w-1/2
-        group
-        space-y-4
-        text-center
-        md:px-6
-        lg:px-10
-        xl:px-16
-        py-10
-      "
+      class="w-full md:w-1/2 group space-y-4 text-center md:px-6 lg:px-10 xl:px-16 py-10"
     >
       <div class="w-full aspect-w-8 aspect-h-5 dark:invert">
         <img
           :src="require(`@/assets/images/${project.img}`)"
           alt="Brikku"
-          class="
-            w-full
-            h-full
-            object-center object-cover
-            rounded-3xl
-            transition
-            duration-500
-            transform
-            group-hover:opacity-90 group-hover:scale-105
-          "
+          class="w-full h-full object-center object-cover rounded-3xl transition duration-500 transform group-hover:opacity-90 group-hover:scale-105"
         />
       </div>
 
