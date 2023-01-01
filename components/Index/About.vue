@@ -24,8 +24,8 @@
           >
         </p>
         <p>
-          <span class="bg-gradient text-gradient font-medium">Actualidad</span>
-          > Estoy finalizando la carrera de Ingeniería en computación e
+          <span class="bg-gradient text-gradient font-medium">2022</span>
+          > Titulado en Ingeniería en computación e
           informática en la Universidad Andrés Bello.
         </p>
 
